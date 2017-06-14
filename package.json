@@ -1,0 +1,21 @@
+{
+  "name": "is-camera-on-linux",
+  "description": "Check if the webcam is in use on linux",
+  "version": "0.1.0",
+  "homepage": "http://github.com/stevelacy/is-camera-on-linux",
+  "repository": "git://github.com/stevelacy/is-camera-on-linux.git",
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  },
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "keywords": [
+    "camera",
+    "ison",
+    "linux"
+  ],
+  "license": "MIT"
+}
