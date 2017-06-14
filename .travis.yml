@@ -1,5 +1,6 @@
-sudo: false
+sudo: required
 language: node_js
+script: 'if [ "$TRAVIS" == true ]; then sudo $(which npm) test; else npm test; fi'
 node_js:
   - "6"
   - "7"
